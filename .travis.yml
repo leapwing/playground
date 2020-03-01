@@ -7,5 +7,6 @@ deploy:
     provider: script
     skip-cleanup: true
     script: yarn install && yarn run deploy
+    target-branch: master
     on:
         branch: master
