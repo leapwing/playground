@@ -7,6 +7,5 @@ deploy:
     provider: script
     skip-cleanup: true
     script: yarn install && yarn run deploy
-    keep-history: true
     on:
         branch: master
