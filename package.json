@@ -1,0 +1,25 @@
+{
+  "name": "kenny-huang-playground",
+  "private": true,
+  "description": "KG playground",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/leapwing.github.io.git"
+  },
+  "dependencies": {
+    "gatsby": "^2.19.23",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
