@@ -1,6 +1,6 @@
 language: node_js
 before_script:
-    - yarn global add gatsby-cli
+    - yarn add gatsby
 node_js:
     - lts/*
 deploy:
