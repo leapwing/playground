@@ -6,7 +6,7 @@ node_js:
 deploy:
     provider: script
     skip-cleanup: true
-    script: yarn install --frozen-lockfile && yarn run deploy
+    script: yarn install && yarn run deploy
     keep-history: true
     on:
         branch: master
